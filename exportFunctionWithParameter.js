@@ -1,6 +1,4 @@
-const num = prompt();
-
-const square(parseInt(num))=>{
+const square(num)=>{
     return num**2;
 };
-exports.module = square;
+module.exports = square;

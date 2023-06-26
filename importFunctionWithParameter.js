@@ -1,3 +1,3 @@
-const a = require("./exportFunctionWithParameter");
+const a = require("./exportFunctionWithParameter.js");
 
-console.log(a);
+console.log(a(5));
